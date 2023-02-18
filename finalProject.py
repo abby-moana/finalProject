@@ -14,6 +14,7 @@ root.iconphoto(False, icon)
 scrollbar = scrollbar(root)
 scrollbar.pack(side=RIGHT, fill=Y)
 
+
 def saveNote():
     openNote = filedialog.asksaveasfile(mode="w", defaultextension=".txt")
     if openNote is None:
@@ -22,15 +23,19 @@ def saveNote():
     openNote.write(text)
     openNote.close()
 
+
 def openNote():
     note = filedialog.askopenfile(mode="r", filetypes=[("text files", "*.txt")])
     if note is not None:
         content = note.read()
         entry.insert(INSERT, content)
 
+
 def clearNote():
     entry.delete(1.0, END)
+
 
 def newNote():
     root.title("Untitled - Notepad")
     entry.delete(1.0, END)
+
