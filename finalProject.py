@@ -32,3 +32,4 @@ def clearNote():
     entry.delete(1.0, END)
 
 def newNote():
+    root.title("Untitled - Notepad")
