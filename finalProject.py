@@ -29,3 +29,4 @@ def openNote():
         entry.insert(INSERT, content)
 
 def clearNote():
+    entry.delete(1.0, END)
