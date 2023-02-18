@@ -13,3 +13,5 @@ root.iconphoto(False, icon)
 
 scrollbar = scrollbar(root)
 scrollbar.pack(side=RIGHT, fill=Y)
+
+def saveNote():
