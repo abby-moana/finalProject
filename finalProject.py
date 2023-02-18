@@ -19,3 +19,4 @@ def saveNote():
     if openNote is None:
         return
     text = str(entry.get(1.0, END))
+    openNote.write(text)
