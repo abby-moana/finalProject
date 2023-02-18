@@ -51,3 +51,5 @@ b3.place(x=105, 10)
 
 b4 = Button(root, text="Clear", command=clearNote, bg="#99d18f")
 b4.place(x=155, 10)
+
+b5 = Button(root, text="Exit", command=exit, bg="#99d18f")
