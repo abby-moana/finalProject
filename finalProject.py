@@ -57,3 +57,5 @@ b4.place(x=205, y=10)
 
 entry = Text(root, height=33, width=58, bg="#99d18f", wrap=WORD, font=("courier", 12))
 entry.pack(padx=10, pady=50, expand=TRUE, fill=BOTH)
+
+root.mainloop()
