@@ -10,3 +10,5 @@ root.config(bg="pink")
 
 icon = ImageTk.PhotoImage(Image.open("notepad.png"))
 root.iconphoto(False, icon)
+
+scrollbar = scrollbar(root)
