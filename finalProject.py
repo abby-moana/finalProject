@@ -23,3 +23,4 @@ def saveNote():
     openNote.close()
 
 def openNote():
+    note = filedialog.askopenfile(mode="r", filetypes=[("text files", "*.txt")])
