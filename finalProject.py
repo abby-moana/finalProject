@@ -41,3 +41,4 @@ def newNote():
 
 
 b1 = button(root, text="Save", command=saveNote(), bg="#99d18f")
+b1.place(x=10, y=10)
