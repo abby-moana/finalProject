@@ -20,3 +20,4 @@ def saveNote():
         return
     text = str(entry.get(1.0, END))
     openNote.write(text)
+    openNote.close()
