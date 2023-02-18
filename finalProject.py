@@ -16,3 +16,5 @@ scrollbar.pack(side=RIGHT, fill=Y)
 
 def saveNote():
     openNote = filedialog.asksaveasfile(mode="w", defaultextension=".txt")
+    if openNote is None:
+
