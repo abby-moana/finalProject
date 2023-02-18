@@ -47,9 +47,10 @@ b2 = Button(root, text="New", command=newNote, bg="#99d18f")
 b2.place(x=55, y=10)
 
 b3 = Button(root, text="Open", command=openNote, bg="#99d18f")
-b3.place(x=105, 10)
+b3.place(x=105, y=10)
 
 b4 = Button(root, text="Clear", command=clearNote, bg="#99d18f")
-b4.place(x=155, 10)
+b4.place(x=155, y=10)
 
 b5 = Button(root, text="Exit", command=exit, bg="#99d18f")
+b4.place(x=205, y=10)
