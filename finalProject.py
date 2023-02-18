@@ -54,3 +54,5 @@ b4.place(x=155, y=10)
 
 b5 = Button(root, text="Exit", command=exit, bg="#99d18f")
 b4.place(x=205, y=10)
+
+entry = Text(root, height=33, width=58, bg="#99d18f", wrap=WORD, font=("courier", 12))
