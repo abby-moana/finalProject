@@ -30,3 +30,5 @@ def openNote():
 
 def clearNote():
     entry.delete(1.0, END)
+
+def newNote():
