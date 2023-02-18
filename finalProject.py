@@ -25,3 +25,4 @@ def saveNote():
 def openNote():
     note = filedialog.askopenfile(mode="r", filetypes=[("text files", "*.txt")])
     if note is not None:
+        content = note.read()
