@@ -40,8 +40,11 @@ def newNote():
     entry.delete(1.0, END)
 
 
-b1 = button(root, text="Save", command=saveNote(), bg="#99d18f")
+b1 = Button(root, text="Save", command=saveNote, bg="#99d18f")
 b1.place(x=10, y=10)
 
-b2 = Button(root, text="New", command=newNote(), bg="#99d18f")
-b1.place(x=55, y=10)
+b2 = Button(root, text="New", command=newNote, bg="#99d18f")
+b2.place(x=55, y=10)
+
+b3 = Button(root, text="Open", command=openNote, bg="#99d18f")
+b1.place(
