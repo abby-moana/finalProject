@@ -39,3 +39,5 @@ def newNote():
     root.title("Untitled - Notepad")
     entry.delete(1.0, END)
 
+
+b1 = button(root, text="Save", command=saveNote(), bg="#99d18f")
