@@ -6,3 +6,4 @@ from PIL import Image, ImageTk
 root = Tk()
 root.geometry("600x600")
 root.title("Notepad")
+root.config(bg="pink")
