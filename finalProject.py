@@ -12,3 +12,4 @@ icon = ImageTk.PhotoImage(Image.open("notepad.png"))
 root.iconphoto(False, icon)
 
 scrollbar = scrollbar(root)
+scrollbar.pack(side=RIGHT, fill=Y)
