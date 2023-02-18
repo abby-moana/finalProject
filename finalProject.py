@@ -28,3 +28,4 @@ def openNote():
         content = note.read()
         entry.insert(INSERT, content)
 
+def clearNote():
